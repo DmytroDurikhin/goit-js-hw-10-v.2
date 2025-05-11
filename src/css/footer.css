@@ -10,6 +10,9 @@
 .footer-link:hover {
   color: lightseagreen;
   font-size: 24px;
+  transition: color 0.3s ease,
+    transform 0.3s ease, font-size 0.3s ease,
+        transform 0.3s ease;
 }
 .footer-link::before {
   content: '';

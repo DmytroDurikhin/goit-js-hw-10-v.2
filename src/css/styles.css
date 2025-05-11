@@ -16,3 +16,22 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+
+.timer-container {
+  margin-top: 40px;
+
+}
+
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
+
+}
+.field {
+ display: flex;
+ flex-direction: column;
+}
