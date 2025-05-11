@@ -7,6 +7,10 @@
 .footer-link {
   position: relative;
 }
+.footer-link:hover {
+  color: lightseagreen;
+  font-size: 24px;
+}
 .footer-link::before {
   content: '';
   position: absolute;

@@ -6,6 +6,11 @@
   border: 1px solid;
   border-radius: 8px;
 }
+
+.back-link:hover {
+  color: #ffffff;
+  background-color: rgb(125, 65, 245, 0.5);
+}
 .back-link::before {
   content: '';
   position: absolute;
@@ -26,4 +31,6 @@
 .back-link:hover::before {
   opacity: 1;
   animation-play-state: running;
+  
+  
 }
